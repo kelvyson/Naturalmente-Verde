@@ -659,7 +659,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                     duration-300\r
                     hover:scale-125\r
                     hover:rotate-12\r
-                  `,children:(0,j.jsx)(kr,{className:`text-green-700`,size:22})})]}),n&&(0,j.jsx)(`p`,{className:`text-sm text-red-500 mt-2 ml-2 animate-fade-in`,children:`Nenhum produto encontrado.`})]}),(0,j.jsx)(`div`,{className:`flex justify-center`,children:(0,j.jsx)(kn,{to:`/`,className:`transition-all duration-500 hover:scale-105`,children:(0,j.jsx)(`img`,{src:`/logo.png`,alt:`Naturalmente Verde`,className:`w-32 sm:w-40 md:w-44 object-contain mx-auto drop-shadow-lg`})})}),(0,j.jsx)(`div`,{className:`flex justify-center lg:justify-end`,children:(0,j.jsxs)(`a`,{href:`https://wa.me/556196701233`,target:`_blank`,rel:`noopener noreferrer`,className:`\r
+                  `,children:(0,j.jsx)(kr,{className:`text-green-700`,size:22})})]}),n&&(0,j.jsx)(`p`,{className:`text-sm text-red-500 mt-2 ml-2 animate-fade-in`,children:`Nenhum produto encontrado.`})]}),(0,j.jsx)(`div`,{className:`flex justify-center`,children:(0,j.jsx)(kn,{to:`/`,className:`transition-all duration-500 hover:scale-105`,children:(0,j.jsx)(`img`,{src:`/Naturalmente-Verde/logo.png`,alt:`Naturalmente Verde`,className:`w-32 sm:w-40 md:w-44 object-contain mx-auto drop-shadow-lg`})})}),(0,j.jsx)(`div`,{className:`flex justify-center lg:justify-end`,children:(0,j.jsxs)(`a`,{href:`https://wa.me/556196701233`,target:`_blank`,rel:`noopener noreferrer`,className:`\r
                   group\r
                   relative\r
                   inline-flex\r
