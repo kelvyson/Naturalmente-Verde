@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import "tailwindcss";
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ROOT */
+html,
+body,
+#root {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* BODY */
+body {
+  background: #f5f3ee;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+/* MÍDIA */
+img,
+video,
+iframe {
+  max-width: 100%;
+  display: block;
+}
+
+/* FONTES */
+.title-font {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.handmade-title {
+  font-family: 'Pacifico', cursive;
+  color: #0b7a28;
+
+  text-shadow:
+    2px 2px 0 #ffffff,
+    0 4px 12px rgba(0, 0, 0, 0.18);
+
+  letter-spacing: 1px;
+  line-height: 1.2;
+}
+
+.handmade-title-light {
+  font-family: 'Pacifico', cursive;
+  color: #f1d594;
+
+  text-shadow:
+    2px 2px 0 #ff7b00,
+    0 4px 14px rgba(0, 0, 0, 0.28);
+
+  letter-spacing: 1px;
+  line-height: 1.2;
+}
+
+/* ANIMAÇÃO STORIES */
+@keyframes story {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+/* ANIMAÇÃO FADE */
+.animate-fade-in {
+  animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+* {
+  max-width: 100%;
+}
+
+
