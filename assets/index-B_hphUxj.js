@@ -552,13 +552,15 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
             text-center\r
             mb-20\r
             animate-[fadeIn_1s_ease]\r
-          `,children:[(0,j.jsx)(`h1`,{className:`handmade-title text-5xl sm:text-6xl md:text-7xl mb-8`,children:`Contato`}),(0,j.jsx)(`div`,{className:`w-40 h-1 bg-orange-400 mx-auto rounded-full mb-8`}),(0,j.jsx)(`p`,{className:`text-base md:text-lg tracking-[0.28em] uppercase text-gray-700 font-semibold`,children:`Entre em contato conosco e venha conhecer a Naturalmente Verde.`})]}),(0,j.jsxs)(`div`,{className:`grid grid-cols-2 gap-6 h-[650px]`,children:[(0,j.jsxs)(`div`,{className:`rounded-[30px] overflow-hidden shadow-xl relative group cursor-pointer`,children:[(0,j.jsx)(`img`,{src:`/Naturalmente-Verde/contact.jpeg`,alt:`Loja Naturalmente Verde`,className:`\r
+          `,children:[(0,j.jsx)(`h1`,{className:`handmade-title text-5xl sm:text-6xl md:text-7xl mb-8`,children:`Contato`}),(0,j.jsx)(`div`,{className:`w-40 h-1 bg-orange-400 mx-auto rounded-full mb-8`}),(0,j.jsx)(`p`,{className:`text-base md:text-lg tracking-[0.28em] uppercase text-gray-700 font-semibold`,children:`Entre em contato conosco e venha conhecer a Naturalmente Verde.`})]}),(0,j.jsxs)(`div`,{className:`grid grid-cols-1 lg:grid-cols-2 gap-6 lg:h-[650px]`,children:[(0,j.jsxs)(`div`,{className:`rounded-[30px] overflow-hidden shadow-xl relative group cursor-pointer`,children:[(0,j.jsx)(`img`,{src:`/Naturalmente-Verde/contact.jpeg`,alt:`Loja Naturalmente Verde`,className:`\r
                 w-full\r
                 h-full\r
-                object-contain\r
+                object-cover\r
                 transition-transform\r
                 duration-700\r
                 group-hover:scale-110\r
+                lg:object-cover\r
+                object-center\r
               `}),(0,j.jsx)(`div`,{className:`\r
               absolute inset-0\r
               bg-black/0\r
