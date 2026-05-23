@@ -2,7 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* RESET */
 * {
@@ -90,9 +92,4 @@ iframe {
     transform: translateY(0);
   }
 }
-
-* {
-  max-width: 100%;
-}
-
 

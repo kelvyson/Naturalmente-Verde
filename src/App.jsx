@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, Navigate } from 'react-router-dom'
 
 import Home from './pages/Home'
 import Catalog from './pages/Catalog'
@@ -20,37 +20,20 @@ function App() {
 
         <Routes>
 
-          <Route
-            path="/"
-            element={<Home />}
-          />
+          <Route path="/" element={<Home />} />
+          <Route path="/catalogo" element={<Catalog />} />
+          <Route path="/produto/:id" element={<ProductDetails />} />
+          <Route path="/sobre" element={<About />} />
+          <Route path="/contato" element={<Contact />} />
 
-          <Route
-            path="/catalogo"
-            element={<Catalog />}
-          />
-
-          <Route
-            path="/produto/:id"
-            element={<ProductDetails />}
-          />
-
-          <Route
-            path="/sobre"
-            element={<About />}
-          />
-
-          <Route
-            path="/contato"
-            element={<Contact />}
-          />
+          {/* fallback */}
+          <Route path="*" element={<Navigate to="/" />} />
 
         </Routes>
 
       </main>
 
       <WhatsAppButton />
-
       <Footer />
 
     </div>

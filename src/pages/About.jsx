@@ -6,11 +6,11 @@ function About() {
 
   // 🔥 imagens do slideshow (ajuste os nomes conforme sua pasta)
   const images = [
-    "/about/about1.jpeg",
-    "/about/about2.jpeg",
-    "/about/about3.jpeg",
-    "/about/about4.jpeg",
-    "/about/about5.jpeg",
+    "/Naturalmente-Verde/about/about1.jpeg",
+    "/Naturalmente-Verde/about/about2.jpeg",
+    "/Naturalmente-Verde/about/about3.jpeg",
+    "/Naturalmente-Verde/about/about4.jpeg",
+    "/Naturalmente-Verde/about/about5.jpeg",
   ]
 
   const [index, setIndex] = useState(0)

@@ -3,22 +3,22 @@ import { FaInstagram } from 'react-icons/fa'
 function SocialSection() {
   const posts = [
     {
-      image: '/instagram/post1.png',
+      image: '/Naturalmente-Verde/instagram/post1.png',
       link: 'https://www.instagram.com/p/DX-KT0sicLo/?igsh=cTh3ZjM4NmJpNTFm',
     },
 
     {
-      image: '/instagram/post2.png',
+      image: '/Naturalmente-Verde/instagram/post2.png',
       link: 'https://www.instagram.com/p/DWOyL7LDnuG/?igsh=MWg0N3FmemU4ZmRqMQ==',
     },
 
     {
-      image: '/instagram/post3.png',
+      image: '/Naturalmente-Verde/instagram/post3.png',
       link: 'https://www.instagram.com/reel/DXo9hJYDsyj/?igsh=OGhjeGgyYmhvMW85',
     },
 
     {
-      image: '/instagram/post4.png',
+      image: '/Naturalmente-Verde/instagram/post4.png',
       link: 'https://www.instagram.com/reel/DXhWr-RDviq/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
     },
 

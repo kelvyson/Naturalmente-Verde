@@ -33,21 +33,23 @@ function Contact() {
         </div>
 
         {/* CONTEÚDO PRINCIPAL */}
-        <div className="grid grid-cols-2 gap-6 h-[650px]">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:h-[650px]">
 
           {/* IMAGEM (COM HOVER MELHORADO) */}
           <div className="rounded-[30px] overflow-hidden shadow-xl relative group cursor-pointer">
 
             <img
-              src="/contact.jpeg"
+              src="/Naturalmente-Verde/contact.jpeg"
               alt="Loja Naturalmente Verde"
               className="
                 w-full
                 h-full
-                object-contain
+                object-cover
                 transition-transform
                 duration-700
                 group-hover:scale-110
+                lg:object-cover
+                object-center
               "
             />
 

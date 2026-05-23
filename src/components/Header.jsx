@@ -103,7 +103,7 @@ function Header() {
 
               <Link to="/" className="transition-all duration-500 hover:scale-105">
                 <img
-                  src="/logo.png"
+                  src="/Naturalmente-Verde/logo.png"
                   alt="Naturalmente Verde"
                   className="w-32 sm:w-40 md:w-44 object-contain mx-auto drop-shadow-lg"
                 />

@@ -48,10 +48,13 @@ function ProductCard({ product }) {
 
         <p
           className="
-            text-gray-600
-            leading-relaxed
+             text-gray-600
+            text-sm
+            leading-7
             mb-6
-            flex-1
+            h-[170px]
+            overflow-y-auto
+            pr-1
           "
         >
           {product.description}
