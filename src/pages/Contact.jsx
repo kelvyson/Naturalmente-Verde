@@ -39,7 +39,7 @@ function Contact() {
           <div className="rounded-[30px] overflow-hidden shadow-xl relative group cursor-pointer">
 
             <img
-              src="/Naturalmente-Verde/contact.jpeg"
+              src="/contact.jpeg"
               alt="Loja Naturalmente Verde"
               className="
                 w-full
