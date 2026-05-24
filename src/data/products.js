@@ -1,6 +1,48 @@
 const products = [
   {
     id: 1,
+    name: 'Mix de Frutas Liofilizadas Desidratadas',
+    image: '/products/mix-liofilizadas.jpeg',
+    description:
+      'Seleção deliciosa de frutas crocantes e naturais, preservadas pelo processo de liofilização para manter sabor, aroma e praticidade no dia a dia.',
+  },
+  {
+    id: 2,
+    name: 'Mix de Frutas Desidratadas',
+    image: '/products/mix-desidratadas.jpeg',
+    description:
+      'Combinação saborosa de frutas selecionadas, ideal para lanches práticos, nutritivos e cheios de sabor a qualquer hora do dia.',
+  },
+  {
+    id: 3,
+    name: 'Mix de Vegetais Desidratados',
+    image: '/products/mix-vegetais.jpeg',
+    description:
+      'Combinação prática e saborosa de vegetais selecionados, ideal para complementar receitas, lanches e uma rotina alimentar equilibrada.',
+  },
+  {
+    id: 4,
+    name: 'Cupuaçu Desidratado',
+    image: '/products/cupuacu.jpeg',
+    description:
+      'Fruta desidratada com sabor marcante e tropical, ideal para lanches práticos, nutritivos e cheios de sabor no dia a dia.',
+  },
+  {
+    id: 5,
+    name: 'Sanduíches Naturais',
+    image: '/products/sanduiches.jpeg',
+    description:
+      'Opção prática e saborosa preparada com ingredientes frescos e selecionados, ideal para refeições leves e equilibradas no dia a dia.',
+  },
+  {
+    id: 6,
+    name: 'Sucos Naturais',
+    image: '/products/sucos.jpeg',
+    description:
+      'Bebidas refrescantes preparadas com frutas selecionadas, ideais para acompanhar a rotina com mais sabor, leveza e naturalidade.',
+  },
+  {
+    id: 7,
     name: 'Spirulina',
     image: '/products/spirulina.jpeg',
     description:
@@ -8,7 +50,7 @@ const products = [
   },
 
   {
-    id: 2,
+    id: 8,
     name: 'Aveia em Flocos',
     image: '/products/aveia.jpeg',
     description:
@@ -16,14 +58,14 @@ const products = [
   },
 
   {
-    id: 3,
+    id: 9,
     name: 'Uva Passa',
     image: '/products/uva-passa.jpeg',
     description:
       'Doce natural rica em energia, perfeita para lanches e receitas.',
   },
    {
-    id: 4,
+    id: 10,
     name: 'Granola Premium',
     image: '/products/granola.jpeg',
     description:
@@ -33,7 +75,7 @@ const products = [
   
 
   {
-    id: 5,
+    id: 11,
     name: 'Semente de Abóbora',
     image: '/products/semente-abobora.jpeg',
     description:
@@ -42,7 +84,7 @@ const products = [
 
  
   {
-    id: 6,
+    id: 12,
     name: 'Tâmara Sem Caroço',
     image: '/products/tamara.jpeg',
     description:
@@ -50,7 +92,7 @@ const products = [
   },
 
   {
-    id: 7,
+    id: 13,
     name: 'Ameixa Sem Caroço',
     image: '/products/ameixa.jpeg',
     description:
@@ -58,7 +100,7 @@ const products = [
   },
 
   {
-    id: 8,
+    id: 14,
     name: 'Ervilha com Wasabi',
     image: '/products/ervilha-wasabi.jpeg',
     description:
@@ -66,7 +108,7 @@ const products = [
   },
 
   {
-    id: 9,
+    id: 15,
     name: 'Castanha de Caju Caramelizada',
     image: '/products/castanha-caramelizada.jpeg',
     description:
@@ -74,7 +116,7 @@ const products = [
   },
 
   {
-    id: 10,
+    id: 16,
     name: 'Cacau em Pó 100% Alcalino',
     image: '/products/cacau-alcalino.jpeg',
     description:
@@ -82,7 +124,7 @@ const products = [
   },
 
   {
-    id: 11,
+    id: 17,
     name: 'Cacau em Pó 100% Orgânico',
     image: '/products/cacau-organico.jpeg',
     description:
@@ -90,14 +132,14 @@ const products = [
   },
 
   {
-    id: 12,
+    id: 18,
     name: 'Milho Mostarda e Mel',
     image: '/products/milho-mel.jpeg',
     description:
       'Snack crocante com combinação agridoce irresistível.',
   },
    {
-    id: 13,
+    id: 19,
     name: 'Guaraná em Pó 100%',
     image: '/products/guarana.jpeg',
     description:
@@ -107,7 +149,7 @@ const products = [
   
 
   {
-    id: 14,
+    id: 20,
     name: 'Castanha de Caju Assada Sem Sal',
     image: '/products/castanha-sem-sal.jpeg',
     description:
@@ -117,14 +159,14 @@ const products = [
  
 
   {
-    id: 16,
+    id: 21,
     name: 'Maca Peruana Negra',
     image: '/products/maca.jpeg',
     description:
       'Conhecida por auxiliar energia, vitalidade e desempenho diário.',
   },
    {
-    id: 15,
+    id: 22,
     name: 'Ginkgo Biloba',
     image: '/products/ginkgo.jpeg',
     description:
@@ -132,7 +174,7 @@ const products = [
   },
 
   {
-    id: 17,
+    id: 23,
     name: 'Castanha do Pará',
     image: '/products/castanha-para.jpeg',
     description:
@@ -142,7 +184,7 @@ const products = [
  
 
   {
-    id: 18,
+    id: 24,
     name: 'Tribulus Terrestris',
     image: '/products/tribulus.jpeg',
     description:
@@ -150,7 +192,7 @@ const products = [
   },
 
   {
-    id: 19,
+    id: 25,
     name: 'Marapuama',
     image: '/products/marapuama.jpeg',
     description:
@@ -158,7 +200,7 @@ const products = [
   },
 
   {
-    id: 20,
+    id: 26,
     name: 'Ginseng em Pó',
     image: '/products/ginseng.jpeg',
     description:
@@ -166,7 +208,7 @@ const products = [
   },
 
   {
-    id: 21,
+    id: 27,
     name: 'Catuaba em Pó',
     image: '/products/catuaba.jpeg',
     description:
@@ -174,7 +216,7 @@ const products = [
   },
 
   {
-    id: 22,
+    id: 28,
     name: 'Óleo de Amêndoa',
     image: '/products/oleo-amendoas.jpeg',
     description:
@@ -184,7 +226,7 @@ const products = [
   
   
   {
-    id: 24,
+    id: 29,
     name: 'Óleo de Melaleuca',
     image: '/products/oleo-melaleuca.jpeg',
     description:
@@ -192,7 +234,7 @@ const products = [
   },
 
   {
-    id: 25,
+    id: 30,
     name: 'Ozempic natural',
     image: '/products/ozempic.jpeg',
     description:
@@ -200,7 +242,7 @@ const products = [
   },
 
   {
-    id: 30,
+    id: 31,
     name: 'Óleo de Copaíba',
     image: '/products/oleo-copaiba.jpeg',
     description:
@@ -208,21 +250,21 @@ const products = [
   },
 
   {
-    id: 31,
+    id: 32,
     name: 'Kombucha',
     image: '/products/kombucha.jpeg',
     description:
       'Bebida fermentada natural à base de chá, conhecida por seu sabor levemente ácido e refrescante. Muito consumida em rotinas saudáveis como opção de bebida funcional e equilibrada.',
   },
   {
-    id: 27,
+    id: 33,
     name: 'Gel Massageador',
     image: '/products/power-gel.jpeg',
     description:
       'Gel de uso tópico com ação refrescante, indicado para massagens corporais, proporcionando sensação de alívio e bem-estar após esforço físico ou cansaço muscular.',
   },
    {
-    id: 26,
+    id: 34,
     name: 'Seca Barriga em Cápsulas',
     image: '/products/seca-barriga.jpeg',
     description:
@@ -230,14 +272,14 @@ const products = [
   },
 
   {
-    id: 29,
+    id: 35,
     name: 'Cápsulas Naturais Estimulantes',
     image: '/products/estimulantes.jpeg',
     description:
       'Combo de suplementos naturais à base de plantas tradicionalmente utilizadas em fórmulas de vitalidade, energia e bem-estar. Indicado para quem busca mais disposição e equilíbrio na rotina diária.',
   },
    {
-    id: 28,
+    id: 36,
     name: 'Esfoliante Facial e Corporal',
     image: '/products/esfoliante.jpeg',
     description:
@@ -245,7 +287,7 @@ const products = [
   },
 
   {
-    id: 32,
+    id: 37,
     name: 'Drageado de Banana',
     image: '/products/drageado-banana.jpeg',
     description:
@@ -253,7 +295,7 @@ const products = [
   },
 
   {
-    id: 33,
+    id: 38,
     name: 'Drageado de Castanha de Caju',
     image: '/products/drageado-castanhacaju.jpeg',
     description:
@@ -261,7 +303,7 @@ const products = [
   },
 
   {
-    id: 34,
+    id: 39,
     name: 'Drageado de Cereja',
     image: '/products/drageado-cereja.jpeg',
     description:
@@ -269,7 +311,7 @@ const products = [
   },
 
   {
-    id: 35,
+    id: 40,
     name: 'Drageado de Cupuaçu',
     image: '/products/drageado-cupuaçu.jpeg',
     description:
@@ -277,7 +319,7 @@ const products = [
   },
 
   {
-    id: 36,
+    id: 41,
     name: 'Drageado de Morango',
     image: '/products/drageado-morango.jpeg',
     description:
@@ -285,7 +327,7 @@ const products = [
   },
 
   {
-    id: 37,
+    id: 42,
     name: 'Chá Menopausa',
     image: '/products/cha-menopauzam.jpg',
     description:
@@ -293,7 +335,7 @@ const products = [
   },
 
   {
-    id: 38,
+    id: 43,
     name: 'Chá de Amora Miúra',
     image: '/products/cha-amora.jpg',
     description:
@@ -301,7 +343,7 @@ const products = [
   },
 
   {
-    id: 39,
+    id: 44,
     name: 'Chá Diabeticol',
     image: '/products/cha-diabeticol.jpg',
     description:
@@ -309,7 +351,7 @@ const products = [
   },
 
   {
-    id: 40,
+    id: 45,
     name: 'Chá Columax',
     image: '/products/cha-columax.jpg',
     description:
@@ -317,7 +359,7 @@ const products = [
   },
 
   {
-    id: 41,
+    id: 46,
     name: 'Chá Cura Tudo',
     image: '/products/cha-curatudo.jpg',
     description:
@@ -325,7 +367,7 @@ const products = [
   },
 
   {
-    id: 42,
+    id: 47,
     name: 'Chá de Valeriana',
     image: '/products/cha-valeriana.jpg',
     description:
@@ -333,7 +375,7 @@ const products = [
   },
 
   {
-    id: 43,
+    id: 48,
     name: 'Chá de Cardo Mariano',
     image: '/products/cha-cardomariano.jpg',
     description:
@@ -342,7 +384,7 @@ const products = [
 
 
   {
-    id: 44,
+    id: 49,
     name: 'Chá Intestino Preso',
     image: '/products/cha-intestinopreso.jpg',
     description:
@@ -350,61 +392,21 @@ const products = [
   },
 
   {
-    id: 45,
+    id: 50,
     name: 'Chá de Uxi Amarelo com Unha-de-Gato',
     image: '/products/cha-uxiamarelo.jpg',
     description:
       'Blend natural de ervas tradicionalmente utilizado em rotinas de bem-estar, muito apreciado pelos cuidados naturais e equilíbrio do organismo.',
   },
   {
-    id: 46,
+    id: 51,
     name: 'Guaraná e Tribulus em Cápsulas',
     image: '/products/guarana-tribulus.jpeg',
     description:
       'Suplemento de origem vegetal, muito utilizado em rotinas de bem-estar e disposição diaria.',
   },
-  {
-    id: 47,
-    name: 'Mix de Frutas Liofilizadas Desidratadas',
-    image: '/products/mix-liofilizadas.jpeg',
-    description:
-      'Seleção deliciosa de frutas crocantes e naturais, preservadas pelo processo de liofilização para manter sabor, aroma e praticidade no dia a dia.',
-  },
-  {
-    id: 48,
-    name: 'Mix de Frutas Desidratadas',
-    image: '/products/mix-desidratadas.jpeg',
-    description:
-      'Combinação saborosa de frutas selecionadas, ideal para lanches práticos, nutritivos e cheios de sabor a qualquer hora do dia.',
-  },
-  {
-    id: 49,
-    name: 'Mix de Vegetais Desidratados',
-    image: '/products/mix-vegetais.jpeg',
-    description:
-      'Combinação prática e saborosa de vegetais selecionados, ideal para complementar receitas, lanches e uma rotina alimentar equilibrada.',
-  },
-  {
-    id: 50,
-    name: 'Sanduíches Naturais',
-    image: '/products/sanduiches.jpeg',
-    description:
-      'Opção prática e saborosa preparada com ingredientes frescos e selecionados, ideal para refeições leves e equilibradas no dia a dia.',
-  },
-  {
-    id: 51,
-    name: 'Sucos Naturais',
-    image: '/products/sucos.jpeg',
-    description:
-      'Bebidas refrescantes preparadas com frutas selecionadas, ideais para acompanhar a rotina com mais sabor, leveza e naturalidade.',
-  },
-  {
-    id: 52,
-    name: 'Cupuaçu Desidratado',
-    image: '/products/cupuacu.jpeg',
-    description:
-      'Fruta desidratada com sabor marcante e tropical, ideal para lanches práticos, nutritivos e cheios de sabor no dia a dia.',
-  }
+  
+  
 
 
   
