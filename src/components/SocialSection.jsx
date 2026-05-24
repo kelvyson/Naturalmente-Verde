@@ -21,10 +21,7 @@ function SocialSection() {
       image: '/instagram/post4.png',
       link: 'https://www.instagram.com/reel/DXhWr-RDviq/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
     },
-    {
-      image: '/instagram/post5.png',
-      link: 'https://www.instagram.com/p/DYfFyn-ukF5/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==',
-    },
+    
 
   ]
 
