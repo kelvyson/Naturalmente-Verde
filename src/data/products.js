@@ -1,21 +1,22 @@
 const products = [
   {
     id: 1,
-    name: 'Sanduíches Naturais',
-    image: '/products/sanduiches.jpeg',
-    description:
-      'Opção prática e saborosa preparada com ingredientes frescos e selecionados, ideal para refeições leves e equilibradas no dia a dia.',
-  },
-  {
-    id: 2,
     name: 'Sucos Naturais',
     image: '/products/sucos.jpeg',
     description:
       'Bebidas refrescantes preparadas com frutas selecionadas, ideais para acompanhar a rotina com mais sabor, leveza e naturalidade.',
   },
   {
+    id: 2,
+    name: 'Sanduíches Naturais',
+    image: '/products/sanduiches.jpeg',
+    description:
+      'Opção prática e saborosa preparada com ingredientes frescos e selecionados, ideal para refeições leves e equilibradas no dia a dia.',
+  },
+  
+  {
     id: 3,
-    name: 'Mix de Frutas Liofilizadas Desidratadas',
+    name: 'Mix de Frutas Liofilizadas',
     image: '/products/mix-liofilizadas.jpeg',
     description:
       'Seleção deliciosa de frutas crocantes e naturais, preservadas pelo processo de liofilização para manter sabor, aroma e praticidade no dia a dia.',
