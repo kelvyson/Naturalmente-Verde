@@ -4,12 +4,12 @@ function SocialSection() {
   const posts = [
     {
       image: '/instagram/post1.png',
-      link: 'https://www.instagram.com/p/DX-KT0sicLo/?igsh=cTh3ZjM4NmJpNTFm',
+      link: 'https://www.instagram.com/p/DYfMoYXu5by/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
     },
 
     {
       image: '/instagram/post2.png',
-      link: 'https://www.instagram.com/p/DWOyL7LDnuG/?igsh=MWg0N3FmemU4ZmRqMQ==',
+      link: 'https://www.instagram.com/p/DYfG3ZwuUUx/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
     },
 
     {
@@ -20,6 +20,10 @@ function SocialSection() {
     {
       image: '/instagram/post4.png',
       link: 'https://www.instagram.com/reel/DXhWr-RDviq/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+    },
+    {
+      image: '/instagram/post5.png',
+      link: 'https://www.instagram.com/p/DYfFyn-ukF5/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==',
     },
 
   ]
