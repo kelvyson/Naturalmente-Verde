@@ -1,46 +1,47 @@
 const products = [
   {
     id: 1,
-    name: 'Mix de Frutas Liofilizadas Desidratadas',
-    image: '/products/mix-liofilizadas.jpeg',
-    description:
-      'Seleção deliciosa de frutas crocantes e naturais, preservadas pelo processo de liofilização para manter sabor, aroma e praticidade no dia a dia.',
-  },
-  {
-    id: 2,
-    name: 'Mix de Frutas Desidratadas',
-    image: '/products/mix-desidratadas.jpeg',
-    description:
-      'Combinação saborosa de frutas selecionadas, ideal para lanches práticos, nutritivos e cheios de sabor a qualquer hora do dia.',
-  },
-  {
-    id: 3,
-    name: 'Mix de Vegetais Desidratados',
-    image: '/products/mix-vegetais.jpeg',
-    description:
-      'Combinação prática e saborosa de vegetais selecionados, ideal para complementar receitas, lanches e uma rotina alimentar equilibrada.',
-  },
-  {
-    id: 4,
-    name: 'Cupuaçu Desidratado',
-    image: '/products/cupuacu.jpeg',
-    description:
-      'Fruta desidratada com sabor marcante e tropical, ideal para lanches práticos, nutritivos e cheios de sabor no dia a dia.',
-  },
-  {
-    id: 5,
     name: 'Sanduíches Naturais',
     image: '/products/sanduiches.jpeg',
     description:
       'Opção prática e saborosa preparada com ingredientes frescos e selecionados, ideal para refeições leves e equilibradas no dia a dia.',
   },
   {
-    id: 6,
+    id: 2,
     name: 'Sucos Naturais',
     image: '/products/sucos.jpeg',
     description:
       'Bebidas refrescantes preparadas com frutas selecionadas, ideais para acompanhar a rotina com mais sabor, leveza e naturalidade.',
   },
+  {
+    id: 3,
+    name: 'Mix de Frutas Liofilizadas Desidratadas',
+    image: '/products/mix-liofilizadas.jpeg',
+    description:
+      'Seleção deliciosa de frutas crocantes e naturais, preservadas pelo processo de liofilização para manter sabor, aroma e praticidade no dia a dia.',
+  },
+  {
+    id: 4,
+    name: 'Mix de Frutas Desidratadas',
+    image: '/products/mix-desidratadas.jpeg',
+    description:
+      'Combinação saborosa de frutas selecionadas, ideal para lanches práticos, nutritivos e cheios de sabor a qualquer hora do dia.',
+  },
+  {
+    id: 5,
+    name: 'Mix de Vegetais Desidratados',
+    image: '/products/mix-vegetais.jpeg',
+    description:
+      'Combinação prática e saborosa de vegetais selecionados, ideal para complementar receitas, lanches e uma rotina alimentar equilibrada.',
+  },
+  {
+    id: 6,
+    name: 'Cupuaçu Desidratado',
+    image: '/products/cupuacu.jpeg',
+    description:
+      'Fruta desidratada com sabor marcante e tropical, ideal para lanches práticos, nutritivos e cheios de sabor no dia a dia.',
+  },
+  
   {
     id: 7,
     name: 'Spirulina',
